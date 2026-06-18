@@ -120,3 +120,94 @@ For example, if a candidate applies for a Full-Stack Developer position but lack
 ## Conclusion
 
 Career Craft transforms traditional recruitment platforms into intelligent career development ecosystems by combining AI-powered recruitment, skill-gap analysis, personalized learning recommendations, and automated profile enhancement within a single integrated solution.
+# Installation & Running the Project
+
+## 1. Clone the Repository
+
+```bash
+git clone <repository-url>
+cd project-master
+```
+
+## 2. Install Frontend Dependencies
+
+Navigate to the client folder and install all required packages:
+
+```bash
+cd client
+npm install
+```
+
+This command downloads all required dependencies and automatically creates the `node_modules` folder.
+
+## 3. Install Backend Dependencies
+
+Open a new terminal and navigate to the server folder:
+
+```bash
+cd server
+npm install
+```
+
+This command installs all backend dependencies and creates the corresponding `node_modules` folder.
+
+## 4. Configure Environment Variables
+
+Create a `.env` file inside the `server` directory and add the required environment variables:
+
+```env
+OPENROUTER_API_KEY=YOUR_API_KEY
+MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
+JWT_SECRET=YOUR_SECRET_KEY
+```
+
+## 5. Run the Backend Server
+
+From the `server` directory:
+
+```bash
+npm start
+```
+
+Or, if the project uses Nodemon:
+
+```bash
+npm run dev
+```
+
+## 6. Run the Frontend Application
+
+Open another terminal and navigate to the client folder:
+
+```bash
+cd client
+npm run dev
+```
+
+For Create React App projects:
+
+```bash
+npm start
+```
+
+## 7. Access the Application
+
+After successfully starting both frontend and backend services, open your browser and navigate to:
+
+```text
+http://localhost:5173
+```
+
+or
+
+```text
+http://localhost:3000
+```
+
+depending on the frontend configuration.
+
+## Notes
+
+* Make sure Node.js is installed before running the project.
+* MongoDB must be running locally or connected through MongoDB Atlas.
+* A valid OpenRouter API Key is required for AI-powered features such as Resume Analysis, Matching Score Generation, and Skill Gap Detection.
