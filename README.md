@@ -1,57 +1,122 @@
+# Career Craft – AI-Powered Job Portal with Smart Career Path Upskilling
 
-reem osama hamdy. 
-Alaa Abopaker khalifa 
-Nada Sayed Mohamed 
- Huda sameh Mohamed 
- Mohamed refaat Mohamed 
-Ahmed Sayed Ahmed Soliman 
- Ahmed yasser Sayed Mohamed 
- Hager hatem rabiea
-Eshak Sameh Attia  
- 
- AI-Powered Job Portal with Smart Career Path Upskilling
-An advanced, full-stack Job Portal Application integrated with tailored Artificial Intelligence features designed to bridge the gap between job seekers and recruitment requirements. The platform not only matches candidates with jobs but also analyzes their skill gaps and dynamically guides them to bridge those gaps through personalized learning recommendations.
+## Team Members
 
-🚀 Key AI Features
-🔍 1. AI Resume Analyzer
-Extracts and parses structural data from uploaded resumes automatically.
+* Reem Osama Hamdy
+* Alaa Abopaker Khalifa
+* Nada Sayed Mohamed
+* Huda Sameh Mohamed
+* Mohamed Refaat Mohamed
+* Ahmed Sayed Ahmed Soliman
+* Ahmed Yasser Sayed Mohamed
+* Hager Hatem Rabiea
+* Eshak Sameh Attia
 
-Identifies core technical and soft skills, experience level, and professional summaries.
+## Project Overview
 
-📊 2. AI Matching Score Engine
-Compares candidates' resumes against specific job descriptions dynamically.
+Career Craft is an AI-powered recruitment and career development platform designed to bridge the gap between job seekers and labor market requirements. Unlike traditional job portals, the platform not only connects candidates with job opportunities but also identifies skill gaps and provides personalized learning recommendations to enhance employability.
 
-Generates a precise fitness score (percentage) indicating how well the candidate fits the role.
+The system integrates Artificial Intelligence technologies with a modern full-stack architecture to automate resume analysis, candidate-job matching, and career path guidance.
 
-💡 3. AI Feedback & Dynamic Skill-Gap Analyzer
-Provides structured feedback highlighting what the candidate is missing for a specific role.
+---
 
-Smart Workflow Example: If a user applies for a Full-Stack Developer role but the AI detects a critical missing piece in the Backend (e.g., Node.js or Express), the system intelligently Flags this gap.
+## Key AI Features
 
-🔄 Automated User Flow & Upskilling Loop
-The platform implements a unique, closed-loop career enhancement workflow:
+### 1. AI Resume Analyzer
 
-[Upload Resume] ➡️ [AI Matching Score & Feedback] ➡️ [Detect Missing Skills]
-                                                            ⬇️
-[Resume Skill Auto-Update] ⬅️ [Complete Course] ⬅️ [Redirect to Courses Page]
-Detection: The AI identifies missing critical skills required for the target job category.
+The Resume Analyzer automatically processes uploaded resumes and extracts structured information, including:
 
-Redirection: The user is automatically suggested or redirected to a dedicated Courses & Learning Page tailored to acquire that specific missing skill (e.g., Backend development courses).
+* Technical skills
+* Soft skills
+* Work experience
+* Educational background
+* Professional summaries
 
-Skill Acquisition: Once the user successfully completes the recommended track, the platform dynamically updates and adds the new skills into their profile/CV, instantly improving their subsequent AI Matching Scores.
+This enables efficient candidate profiling and accurate data analysis.
 
-🛠️ Tech Stack & Architecture
-Frontend: React.js (Responsive UI, Interactive Dashboards, Router-driven user flows).
+### 2. AI Matching Score Engine
 
-Backend: Node.js & Express.js (RESTful API Development, Secure Authentication, Request routing).
+The platform evaluates the compatibility between a candidate's resume and a specific job description.
 
-Database: MongoDB (Flexible document storage for user profiles, resumes, jobs, and courses).
+The AI generates a matching score percentage that reflects how well the candidate satisfies the job requirements based on skills, qualifications, and experience.
 
-AI Integration: Large Language Models (LLMs) orchestrated via OpenRouter API (utilizing efficient models like openai/gpt-3-3.5-turbo for real-time structured JSON parsing, evaluation, and JSON-formatted response generation).
+### 3. AI Feedback & Skill Gap Analysis
 
-🎯 Project Goals
-Automate and speed up the recruitment screening process for HRs.
+The system provides detailed feedback explaining why a candidate may not be a strong match for a particular role.
 
-Empower applicants by showing them exactly why they didn't match a job, and providing an immediate actionable solution to fix it.
+It identifies missing skills and competencies required by the target position and highlights improvement opportunities.
 
-Turn a standard static job application board into an interactive, growth-oriented career development platform.
+---
+
+## Smart Career Upskilling Workflow
+
+The platform implements a continuous career development cycle:
+
+Upload Resume
+↓
+AI Resume Analysis
+↓
+Matching Score & Feedback
+↓
+Skill Gap Detection
+↓
+Recommended Learning Courses
+↓
+Course Completion
+↓
+Automatic Skill & CV Update
+↓
+Improved Matching Score
+
+For example, if a candidate applies for a Full-Stack Developer position but lacks Backend development skills such as Node.js or Express.js, the system automatically detects the gap and recommends suitable learning resources. Upon successful completion of the recommended courses, the candidate’s profile and skills are updated, leading to improved future matching results.
+
+---
+
+## System Architecture
+
+### Frontend
+
+* React.js
+* Responsive User Interface
+* Interactive Dashboards
+* React Router Navigation
+
+### Backend
+
+* Node.js
+* Express.js
+* RESTful APIs
+* Authentication & Authorization
+
+### Database
+
+* MongoDB
+* User Profiles
+* Job Listings
+* Applications
+* Courses Database
+
+### AI Integration
+
+* Large Language Models (LLMs)
+* OpenRouter API
+* Structured JSON Responses
+* Resume Analysis
+* Candidate Evaluation
+* Skill Gap Detection
+
+---
+
+## Project Objectives
+
+* Automate recruitment screening and candidate evaluation.
+* Improve candidate-job matching accuracy.
+* Provide transparent AI-generated feedback.
+* Identify missing skills and recommend learning paths.
+* Support continuous career development and upskilling.
+* Reduce recruitment time and administrative workload.
+* Create an intelligent, growth-oriented recruitment ecosystem.
+
+## Conclusion
+
+Career Craft transforms traditional recruitment platforms into intelligent career development ecosystems by combining AI-powered recruitment, skill-gap analysis, personalized learning recommendations, and automated profile enhancement within a single integrated solution.
