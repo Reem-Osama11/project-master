@@ -2,12 +2,13 @@ import express from "express";
 import { analyzeResume, matchResume } from "../controllers/aiController.js";
 import multer from "multer";
 import path from "path";
+import os from "os";
 
 const router = express.Router();
 
-// ✅ بدل dest بس، حددنا نوع الملف والحجم
+// على Vercel الكتابة مسموحة في /tmp بس
 const storage = multer.diskStorage({
-  destination: "uploads/",
+  destination: os.tmpdir(),
   filename: (req, file, cb) => {
     const uniqueName = `${Date.now()}-${file.originalname}`;
     cb(null, uniqueName);
@@ -16,7 +17,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({
   storage,
-  limits: { fileSize: 5 * 1024 * 1024 }, // 5MB max
+  limits: { fileSize: 4 * 1024 * 1024 }, // 4MB (حد Vercel حوالي 4.5MB)
   fileFilter: (req, file, cb) => {
     const allowed = [".pdf", ".doc", ".docx"];
     const ext = path.extname(file.originalname).toLowerCase();
