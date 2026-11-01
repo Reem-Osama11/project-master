@@ -1,5 +1,5 @@
 import Company from "../models/Company.js";
-import bcrypt from 'bcryptjs'ك
+import bcrypt from 'bcryptjs';
 import { v2 as cloudinary } from "cloudinary";
 import generateToken from "../utils/generateToken.js";
 import Job from "../models/Job.js";
