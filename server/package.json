@@ -7,10 +7,6 @@
     "server": "nodemon server.js",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.86.1",
     "@clerk/clerk-react": "^5.53.4",
@@ -19,7 +15,6 @@
     "@openrouter/sdk": "^0.11.2",
     "@sentry/node": "^8.51.0",
     "@sentry/profiling-node": "^8.51.0",
-    "bcrypt": "^5.1.1",
     "bcryptjs": "^3.0.3",
     "cloudinary": "^2.5.1",
     "cors": "^2.8.5",
@@ -28,8 +23,10 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.5",
     "multer": "^1.4.5-lts.1",
-    "nodemon": "^3.1.9",
     "pdf-parse": "^1.1.1",
     "svix": "^1.42.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
